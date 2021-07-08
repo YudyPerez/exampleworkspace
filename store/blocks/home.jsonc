@@ -14,25 +14,16 @@
     }
   }
 }
-// store/blocks/home.jsonc
-{
-  "store.home": {
-    "blocks": ["rich-text"]
-  },
-  "rich-text": {
+
+  "info-card#button-left": {
     "props": {
-      "text": "**Hello, World!**",
-      "textPosition": "RIGHT"
+    "isFullModeStyle": false,
+    "textPosition": "left",
+    "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+    "headline": "Shining chrome",
+    "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
+    "callToActionMode": "link",
+    "callToActionText": "Go to collection",
+    "textAlignment": "center"
     }
   }
-}
-"rich-text": {
-  "props": {
-    "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "text": "Visit our [help](https://help.vtex.com/en/faq/what-is-vtex-io) section.\n*Be Bold!*\n**This is italic**",
-    "textColor": "c-on-emphasis",
-    "font": "t-heading-5",
-    "blockClass": "help-message"
-  }
-}
